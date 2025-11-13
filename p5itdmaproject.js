@@ -5,9 +5,9 @@ let font;
 let fontsize = 20;
 
 
-function preload() {
-  font = loadFont('/assets/PlayfairDisplayRegular-ywLOY.ttf');
-}
+//function preload() {
+//  font = loadFont('/assets/PlayfairDisplayRegular-ywLOY.ttf');
+//}
 
 function setup() {
   createCanvas (700, 700);
@@ -15,7 +15,7 @@ function setup() {
   colorMode (RGB);
   ellipseMode(RADIUS);
   rectMode(CENTER);
-  textFont(font);
+  //textFont(font);
   textSize(fontsize);
 }
 
